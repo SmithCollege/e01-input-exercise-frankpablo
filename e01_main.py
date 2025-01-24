@@ -19,11 +19,11 @@ num_dogs = int(input("How many dogs do you have? "))
 print (name,"has",num_dogs,"dogs")
 
 # getting another string with a prompt
-num_cats = input("How many cats do you have? ")
+num_cats = int(input("How many cats do you have? "))
 
 #if you try to use these variables in an expression
 # you'll run into trouble
-# total_pets = total_pets + num_dogs + num_cats
+total_pets = total_pets + num_dogs + num_cats
 
 print("total_pets:", total_pets)
 
