@@ -14,7 +14,7 @@ print() # just to add a new line
 total_pets = 0
 
 # getting a string with a prompt
-num_dogs = input("How many dogs do you have? ")
+num_dogs = int(input("How many dogs do you have? "))
 # using the numeric string to print
 print (name,"has",num_dogs,"dogs")
 
